@@ -36,13 +36,13 @@ Normally, you start up comparing 10 files, you get up to get a coffee or go to t
 
 I consider this app pretty feature complete at present. This is as robust if not more than I personally needed it to be. It's gone from MVP (minimum viable product) with my own criteria & requirements to adding a few feature enhancements.
 
-I may fix a couple things like the progress bar's precentage being hard to read on systems with light mode, but any future features/enhancements may be a paid "pro" app, but just something like $5, nothing crazy. I already have a few ideas for what people might ask for but that I personally do not need. I think going beyond features that I initially needed and was looking for, and adding features I personally do not need for other people is a justifiable reason for charging for a coffee. I'll just have to figure out how the logistics of setting that up works.
+I may fix a couple things like the progress bar's percentage being hard to read on systems with light mode, but any future features/enhancements may be a paid "pro" app, but just something like $5, nothing crazy. I already have a few ideas for what people might ask for but that I personally do not need. I think going beyond features that I initially needed and was looking for, and adding features I personally do not need for other people is a justifiable reason for charging for a coffee. I'll just have to figure out how the logistics of setting that up works.
 
 ---
 
 ## ✨ Features
 
-- 📂 **Browse** or 🖱️ **Drag & Drop** files or folders easy folder selection  
+- 📂 **Browse** or 🖱️ **Drag & Drop** files or folders for easy folder selection  
 - 🔗 **Auto-pair by filename** when **queueing** jobs  
 - 🚦 **Threaded** UI elements (NOT hashing) for responsive UI  
 - 📏 **Early size check** (skip hashing if sizes differ)  
@@ -50,15 +50,15 @@ I may fix a couple things like the progress bar's precentage being hard to read 
 - ⌫ **Delete** to remove selected queued jobs  
 - ⏳ **Live progress** with percent overlay and counts  
 - 🧾 **System Message** panel for actions & statuses  
-- 🙈 **Ignore `._` files** option (macOS resource forks)
+- 🙈 **Ignore `._` files** option (macOS AppleDouble)
 - ⚠️ **Error-handling** error messages when there are no matching files, no files selected, etc
 
 ---
 
 ## 🐞 Issues?
 
-1. You do have to for your first queued batch you press queue first before the compare button. It took too long to just figure out how to automatically detect that just for the first queue vs also detecting when it's not the first queue and ignore it if you press it again. The rest of the queue after you started you can just press queue and it'll add to the queue and auto-start.
-2. You do have to press queue EACH TIME you add a batch of files to Set A/B, because the next batch you drag and drop or browse will erase the existing in Set A/B box
+1. You do have to for your first queued batch  press queue first before the compare button. It took too long to just figure out how to automatically detect that just for the first queue vs also detecting when it's not the first queue and ignore it if you press it again. The rest of the queue after you started you can just press Queue and it'll add to the queue and auto-start.
+2. You do have to press queue EACH TIME you add a batch of files to Set A/B, because the next batch you drag and drop or browse will erase the existing in Set A/B box. If you drag and drop three different times THEN press Queue, it'll only queue up the latest batch.
 
 Spotted a bug or want a feature? Please open an **Issue** with:  
 - 💻 OS (Windows/macOS/Linux) & version  
