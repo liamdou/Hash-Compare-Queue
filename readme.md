@@ -42,20 +42,23 @@ I may fix a couple things like the progress bar's precentage being hard to read 
 
 ## ✨ Features
 
-- 🖱️ **Drag & drop** files or folders into Set A / Set B  
-- 📂 **Browse** buttons for easy folder selection  
-- 🔗 **Auto-pair by filename** and **queue** the jobs  
-- 🚦 **Threaded** compare for a responsive UI  
+- 📂 **Browse** or 🖱️ **Drag & Drop** files or folders easy folder selection  
+- 🔗 **Auto-pair by filename** when **queueing** jobs  
+- 🚦 **Threaded** UI elements (NOT hashing) for responsive UI  
 - 📏 **Early size check** (skip hashing if sizes differ)  
 - ⏹️ **Abort** mid-run (per row or global)  
 - ⌫ **Delete** to remove selected queued jobs  
 - ⏳ **Live progress** with percent overlay and counts  
-- 🧾 **System log** panel for actions & statuses  
+- 🧾 **System Message** panel for actions & statuses  
 - 🙈 **Ignore `._` files** option (macOS resource forks)
+- ⚠️ **Error-handling** error messages when there are no matching files, no files selected, etc
 
 ---
 
 ## 🐞 Issues?
+
+1. You do have to for your first queued batch you press queue first before the compare button. It took too long to just figure out how to automatically detect that just for the first queue vs also detecting when it's not the first queue and ignore it if you press it again. The rest of the queue after you started you can just press queue and it'll add to the queue and auto-start.
+2. You do have to press queue EACH TIME you add a batch of files to Set A/B, because the next batch you drag and drop or browse will erase the existing in Set A/B box
 
 Spotted a bug or want a feature? Please open an **Issue** with:  
 - 💻 OS (Windows/macOS/Linux) & version  
@@ -97,10 +100,11 @@ Just **delete the folder** containing the app and the _internal folder.
 1. ➕ Add files/folders to **Set A** and **Set B** using **Browse** or **drag & drop**.  
 2. 🙈 (Optional) Enable **“Ignore files starting with '._'”** when comparing macOS directories.  
 3. 🧮 Click **Queue Job** to auto-pair files (by **matching filename** across both sets.)  
-4. (Optional) 🧺 Review **Queued Jobs** to remove any mistaken selections (select row → **Delete/Backspace**).  
-5. ⚙️ Click **Compare Hashes** to start.  
-6. 👀 Watch **progress** & **System Messages**.  
-7. 🟢 Results appear in **Hashes** as:  
+4. ⌫ (Optional) Review **Queued Jobs** to remove any mistaken selections (select row → **Delete/Backspace**).  
+5. ⚙️ Click **Compare Hashes** to start.
+6. 🧺 For additional queues you can just press repeat 1 & 3 (drop / drop files then press queue) without pressing the compare button, they will be auto-started.
+7. 👀 Watch **progress** & **System Messages**.  
+8. 🟢 Results appear in **Hashes** as:  
    - **✅ Match** – hashes identical  
    - **❌ Mismatch** – hashes differ  
    - **📏 Size mismatch** – sizes differ (hashing skipped)  
