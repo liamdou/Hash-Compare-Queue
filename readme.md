@@ -34,6 +34,14 @@
 
 ---
 
+<h3> Future</h3>
+
+I consider this app pretty feature complete at present. This is as robust if not more than I personally needed it to be. It's gone from MVP (minimum viable product) with my own criteria & requirements to adding a few feature enhancements.
+
+I may fix a couple things like the progress bar's precentage being hard to read on systems with light mode, but any future features/enhancements may be a paid "pro" app, but just something like $5, nothing crazy. I already have a few ideas for what people might ask for but that I personally do not need. I think going beyond features that I initially needed and was looking for, and adding features I personally do not need for other people is a justifiable reason for charging for a coffee. I'll just have to figure out how the logistics of setting that up works.
+
+---
+
 ## ✨ Features
 
 - 🖱️ **Drag & drop** files or folders into Set A / Set B  
