@@ -24,7 +24,7 @@
 
 ## ℹ️ About — What is this program?
 
-**Hash Compare & Queue** (HCQ) is a hashing, comparing and more importantly queueing program (yes, I know, duh) for validating that two sets of files are identical and non-corrupt. I made this because I video edit on a Mac, which is a much less free platform, where everyone wants to charge for any amount of polish. More importantly, I've never seen a program on any OS (possibly I didn't search hard enough) that allows you to queue up you files to hash compare. Thus this program is born! I wanted to keep it free because that's precisely why I made it in the first place - I couldn't find a free program that does this - so it seems a little hypocritical to charge for it. I'll take [donations](https://buymeacoffee.com/hashcomparator) though if you want to buy me a coffee or a meal ;)
+**Hash Compare & Queue** (HCQ) is a hashing, comparing and more importantly queueing program (yes, I know, duh) for validating that two sets of files are identical and non-corrupt. I made this because I video edit on a Mac, which is a much less free platform, where everyone wants to charge for any amount of polish. More importantly, I've never seen a program on any OS (possibly I didn't search hard enough) that allows you to queue up you files to hash compare. Thus this program is born! I wanted to keep it free because that's precisely why I made it in the first place - I couldn't find a free program that does this - so it seems a little hypocritical to charge for it. I'll take [donations](https://buymeacoffee.com/hashcomparator) though if you want to buy me a coffee or a meal ;) Or not, if you don't feel like it :)
 
 <h3>☕ Use case</h3>
 
