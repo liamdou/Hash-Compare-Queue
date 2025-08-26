@@ -72,13 +72,9 @@ Spotted a bug or want a feature? Please open an **Issue** with:
 ## 🖼️ Showcase
 
 **✅❌ Results — Match**
-  
 ![Match screenshot](docs/screenshots/match.png)
-
 **🧺 Queue**
-  
 ![Queue screenshot](docs/screenshots/queue.png)
-
 ---
 
 ## 📦 Installation
